@@ -1,0 +1,143 @@
+.sidebar{
+    width: 20%;
+    /* border: 1px solid; */
+    padding-left:  18px ;
+}
+@media screen and (max-width: 480px) {
+    .sidebar {display: none;}
+    
+  }
+.content{
+    width: 80%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.list{
+    /* padding-left: 1vw; */
+    margin: 2vw;
+    
+    align-items: center;
+    justify-content: center;
+    
+    border: 1px solid;
+    /* background-color: gainsboro; */
+    /* box-shadow: rgba(205, 124, 124, 0.35) 0px 5px 15px; */
+    
+}
+
+@media screen and (max-width: 480px) {
+    .list {flex-direction: row;margin-left: 60px; color: blue;width: 300px;}
+    
+  }
+.list:hover{
+    background-color: #c9c3c3;
+    border:1px solid white;
+    transition: all .9s;
+}
+.divider_div{
+    width: 100%;
+    height: 5vw;
+    /* background:linear-gradient() ; */
+}
+@media screen and (max-width: 480px) {
+    .divider_div {display: none;}
+    
+  }
+.gender{
+   line-height: 25px;
+
+}
+.categories{
+    line-height: 25px;
+}
+.images{
+    width:220px;
+    
+    /* padding-left: 3vw; */
+
+}
+@media screen and (max-width: 480px) {
+    .images {width: 350px;}
+    
+  }
+.image_detail{
+    /* background-color: bisque; */
+    width: 220px;
+    flex-direction: column;
+    text-align: center;
+    
+    
+}
+.pname{
+    font-size: 22px;
+    font-weight: bolder;
+
+}
+.price{
+    font-size: 20px;
+   
+}
+.strickprice{
+    text-decoration: line-through;
+}
+.discount{
+    color: red;
+}
+.imageDetailMain{
+    
+}
+@media screen and (max-width: 480px) {
+    .imageDetailMain {flex-direction: column;}
+    
+  }
+.productDetailImges{
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+/* @media screen and (max-width: 480px) {
+    .productDetailImges{width: 00px;}
+    
+  } */
+.imageTitle{
+    /* border: 1px solid; */
+    width: 60%;
+}
+.imageDescription{
+    padding: 4vw;
+    /* border: 1px solid; */
+    width: 40%;
+}
+.imageDescription_product{
+    font-size: 25px;
+    
+}
+.imageDetailInside{
+    /* padding: 1vw; */
+    margin: 2vw;
+}
+.sort-holder{
+    position: absolute;
+    right: 50px;
+    top: 117px;
+    z-index: 0;
+    /* border: 1px solid; */
+    
+    
+}
+.select{
+    padding: 10px 35px;
+    /* font-weight: bold; */
+    /* font-size: 20px; */
+    /* border: none; */
+  
+}
+.productSize{
+    font-weight: bold;
+    font-size: 20px;
+}
+.tax{
+    margin-top: 10px;
+    font-weight: bold;
+    color: green;
+}
